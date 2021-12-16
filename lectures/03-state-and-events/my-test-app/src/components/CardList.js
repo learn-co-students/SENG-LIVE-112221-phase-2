@@ -12,7 +12,7 @@ function CardList({ cards, handleAddCard }) {
             {cards.map(card => {
                 return (
                     <Card 
-                        // key={card.id} 
+                        key={card.id}
                         title={card.title} 
                         content={card.content} 
                     />

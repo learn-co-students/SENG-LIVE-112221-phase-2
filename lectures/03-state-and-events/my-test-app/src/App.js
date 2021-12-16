@@ -9,7 +9,12 @@ import CardList from './components/CardList';
 // Data
 import cardData from './cards';
 
+//UseState
+import { useState } from "react"
+
 function App() {
+
+  const [ cards, setCards ] = useState(cardData);
 
   // Q: Why do we want to manage 'cards' state here?
   
@@ -32,7 +37,7 @@ function App() {
 
       {/* CardList Component */}
       <CardList 
-        cards={cardData} 
+        cards={cards} 
       />
     </div>
   );
