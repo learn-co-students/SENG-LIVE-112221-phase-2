@@ -1,0 +1,21 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "First Card",
+      "content": "Here's My First Card",
+      "liked": false
+    },
+    {
+      "id": 2,
+      "title": "Second Card",
+      "content": "Here's My Second Card",
+      "liked": false
+    },
+    {
+      "id": 3,
+      "title": "Third Card",
+      "liked": false
+    }
+  ]
+}
